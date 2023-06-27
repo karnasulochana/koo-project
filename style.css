@@ -1,0 +1,106 @@
+
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #fdcc04;
+    
+}
+.firstleft{
+    display: flex;
+    margin-left: 25px;
+}
+.abc{
+    border-radius: 50%;
+    width: 45px;
+    border: 10px saddlebrown;
+    background-image: none;
+}
+h1{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: rgba(8, 6, 6, 0.716);
+    padding: 10px;
+
+font-weight: bolder;
+    margin-left: 10px; 
+
+}
+
+.effect:hover{
+    box-shadow: 0px 0px 7px 8px rgba(35, 177, 188, 0.526);
+    border-radius: 22px;
+    color:crimson;
+    padding: 8px;
+
+}
+
+
+
+body{
+    background-color: #fdcc04;
+}
+
+.firstright{
+    font-size:larger;
+   padding: 10px;
+   margin-right: 100px;
+   }
+   .content{
+       background-color: #fdcc04;
+       width: 90%;
+       margin: 50px auto;
+   display: flex;
+   align-items: center;
+   
+   }
+   .content-left{
+       width: 50%;
+       margin-left: 55px;
+       font-family: 'Poppins', sans-serif;
+   } 
+   .btn{
+       color: #fdcc04;
+       background-color: black;
+   
+       cursor: pointer;
+       padding: 20px 62px;
+       margin: 10px 10px;
+       border-radius: 25px;
+   }
+   
+   .text{
+       font-weight:600px;
+       font-family: 'Poppins', sans-serif;
+   }
+   
+   
+   .sulochana{
+       width: 450px;
+       object-fit: cover;
+       margin:50px;
+       padding-top: 85px;
+   }
+   .content-left h4{
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.5;
+   }
+   . btn :hover{
+    background:black;
+    color: yellow;
+    
+
+   }
+   @media screen (min-width:567px;){
+    body{
+        width: 75%;
+    
+    }
+
+}
+  
